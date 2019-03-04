@@ -3,7 +3,7 @@
   Passed tests will be indicated by a green circle.
   Failed tests will be indicated by a red X.
 
-  You can refresh the page at any time to re-run all the tests.
+  You can refresh the page at any time to re-run all the tests.  
 */
 
 ////////// PROBLEM 1 //////////
@@ -15,7 +15,10 @@
 */
 
 //Code here
-
+let me = {
+  name: "Jeremy",
+  age: 33
+}
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +29,15 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "Metallica",
+  food: "Crab legs",
+  person: "Jessica Alba",
+  book: "Skinwalker Ranch",
+  movie: "Tears of the Sun",
+  holiday: "Christmas"
 
+}
 
 
 /*
@@ -34,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.car = "WRX";
+favoriteThings.brand = "Subaru"
 
 
 /*
@@ -42,7 +54,8 @@
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter"
 
 
 ////////// PROBLEM 3 //////////
@@ -56,7 +69,9 @@
 */
 
 //Code here
-
+let backPack = {};
+let item = 'firstPocket';
+backPack['firstPocket'] = 'chapstick'
 
 
 /*
@@ -64,7 +79,6 @@
 */
 
 //Code here
-
 
 
 /*
@@ -97,7 +111,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -120,7 +135,7 @@ var user2 = {
 */
 
 //Code Here
-
+let methodCollection = {}
 
 
 /*
@@ -129,6 +144,8 @@ var user2 = {
 */
 
 //Code Here
+methodCollection.alertHello = function(){alert("hello")};
+methodCollection.logHello = function(){console.log("hello")}
 
 
 
@@ -137,8 +154,8 @@ var user2 = {
 */
 
 //Code Here
-
-
+//methodCollection.alertHello()
+//methodCollection.logHello()
 
 ////////// PROBLEM 6 //////////
 
@@ -148,7 +165,14 @@ var user2 = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
 
+  }
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -159,5 +183,12 @@ var user2 = {
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+}
 
 
